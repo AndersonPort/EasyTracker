@@ -9,7 +9,7 @@ const Main = () => {
   const classes = useStyles();
 
   return (
-    <Card classname={classes.root}>
+    <Card className={classes.root}>
         <CardHeader title="Expense Tracker" subheader="Powered by Speechly" />
         <CardContent>
             <Typography align="center" variant="h5">Total balance $150</Typography>
@@ -17,7 +17,7 @@ const Main = () => {
                 {/* InfoCard... */}
                 Try saying: Add income for $100 in category Salary for Monday...
             </Typography>
-            <Divider />
+            <Divider className={classes.divider} />
             <Form />
         </CardContent>
         <CardContent className={classes.CardContent}>
